@@ -32,7 +32,7 @@ permalink: /people/
   email1: <{{ member.email1 }}><br>
   email2: <{{ member.email2 }}>
   {% endif %}
-  Personal website: <a href="{{ member.personal_website }}" target="_blank">{{ member.personal_website }}</a><br>
+  Personal website: <a href="{{ Link }}" target="_blank">{{ member.personal_website }}</a><br>
   {% if member.google_scholar %}
 <p>Google Scholar:  Google scholar: {{member.google_scholar}}</p>
 {% endif %}
