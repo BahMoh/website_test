@@ -26,7 +26,6 @@ permalink: /people/
   <h4>{{ member.name }}</h4>
   <!-- <i>{{ member.info }}<br>email: <{{ member.email }}></i>
   <ul style="overflow: hidden"> -->
-  <i>
   {{ member.info }}<br>
   
   {% if member.number_email == 1 %}
@@ -34,10 +33,9 @@ permalink: /people/
   {% endif %}
   
   {% if member.number_email == 2 %}
-    <li> email1: {{ member.email1 }}</li>
-    <li> email2: {{ member.email2 }}</li>
+    email1: {{ member.email1 }}
+    email2: {{ member.email2 }}
   {% endif %}
-</i>
 
 <ul style="overflow: hidden">
 
