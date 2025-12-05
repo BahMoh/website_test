@@ -29,8 +29,8 @@ permalink: /people/
   email: <{{ member.email }}></i>
   {% endif %}
   {% if member.number_email == 2 %}
-  email1: <{{ member.email1 }}></i>
-  email2: <{{ member.email2 }}></i>
+  email1: <{{ member.email1 }}><br>
+  email2: <{{ member.email2 }}>
   {% endif %}
   
   <ul style="overflow: hidden">
