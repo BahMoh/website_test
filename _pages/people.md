@@ -33,7 +33,7 @@ permalink: /people/
   email2: <{{ member.email2 }}>
   {% endif %}
   Personal website: member.personal_website<br>
-  Google scholar: member.google_scholar
+  Google scholar: member.google_scholar 
   
   <ul style="clear: both;">
   
