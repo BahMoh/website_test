@@ -24,9 +24,9 @@ permalink: /people/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="img-responsive" width="40%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>
+  <i>{{ member.info }}</i><br>
   {% if member.number_email == 1 %}
-  email: <{{ member.email }}></i>
+  email: <{{ member.email }}>
   {% endif %}
   {% if member.number_email == 2 %}
   email1: <{{ member.email1 }}><br>
