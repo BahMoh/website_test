@@ -1,5 +1,5 @@
 ---
-title: "Orthotron - Home"
+title: "DYNAMO - Home"
 layout: home
 excerpt: "Orthotron at the University of Waterloo."
 sitemap: false
