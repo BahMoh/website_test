@@ -32,8 +32,8 @@ permalink: /people/
   email1: <{{ member.email1 }}><br>
   email2: <{{ member.email2 }}>
   {% endif %}
-  Personal website: member.personal_website<br>
-  Google scholar: member.google_scholar 
+  Personal website: {{member.personal_website}}<br>
+  Google scholar: {{member.google_scholar}} 
   
   <ul style="clear: both;">
   
