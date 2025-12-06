@@ -1,14 +1,14 @@
 ---
-title: "Orthotron - Research"
+title: "DYNAMO - Research"
 layout: gridlay
-excerpt: "Orthotron -- Research"
+excerpt: "DYNAMO -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research Areas 
 
-The Orthopaedic Mechatronics Laboratory conducts research aimed at characterization and optimization of biomechanical factors influencing the performance of orthopaedic interventions. Areas of current research interest include:
+We in DYNAMO have carried out extensive research on the control and modeling of industrial systems, with a strong emphasis on fault diagnosis, condition monitoring, and robust control strategies. Our work has resulted in multiple peer-reviewed publications covering advanced monitoring techniques, data-driven diagnostics, and control methods for large-scale mechanical and energy systems.
 
 {% assign number_printed = 0 %}
 {% for area in site.data.research %}
