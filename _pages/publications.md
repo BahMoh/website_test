@@ -47,6 +47,6 @@ permalink: /publications/
 <p> &nbsp; </p>
 
 
-# Publication List
+<!-- # Publication List
 
-For a list of Dr. McLachlin's publications see [Google Scholar](https://scholar.google.com/citations?user=LHXh0MQAAAAJ&hl=en)
+For a list of Dr. McLachlin's publications see [Google Scholar](https://scholar.google.com/citations?user=LHXh0MQAAAAJ&hl=en) -->
