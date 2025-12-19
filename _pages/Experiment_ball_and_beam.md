@@ -51,7 +51,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_SIMOpenLoop.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 2. Simulink model of the ball and beam system.
 </figcaption>
@@ -60,7 +60,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_SimulinkLibraryBrowser.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 3. Simulink model of the ball and beam system.
 </figcaption>
@@ -69,7 +69,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_linear_model.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 4. Simulink model of the ball and beam system.
 </figcaption>
@@ -79,7 +79,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockParameterTheta.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 5. Simulink model of the ball and beam system.
 </figcaption>
@@ -88,7 +88,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockParameterOutput.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 6. Simulink model of the ball and beam system.
 </figcaption>
@@ -97,7 +97,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_Output.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 7. Simulink model of the ball and beam system.
 </figcaption>
@@ -107,7 +107,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockDiagramClosedLoop.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 8. Simulink model of the ball and beam system.
 </figcaption>
@@ -117,7 +117,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_RootLocus.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 9. Simulink model of the ball and beam system.
 </figcaption>
@@ -127,7 +127,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_closedLoopResponseKp6.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 10. Simulink model of the ball and beam system.
 </figcaption>
@@ -136,7 +136,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_configuration.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 11. Simulink model of the ball and beam system.
 </figcaption>
@@ -145,7 +145,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PIDTuner.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 12. Simulink model of the ball and beam system.
 </figcaption>
@@ -155,7 +155,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PDClosedLoop.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 13. Simulink model of the ball and beam system.
 </figcaption>
@@ -165,7 +165,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PDOutput.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 14. Simulink model of the ball and beam system.
 </figcaption>
@@ -174,7 +174,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PID_BlockDiagram.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 15. Simulink model of the ball and beam system.
 </figcaption>
@@ -184,7 +184,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_Output_PID.png"
        alt="Simulink model of the ball and beam system"
-       style="width:60%;">
+       style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 16. Simulink model of the ball and beam system.
 </figcaption>
