@@ -6,6 +6,8 @@ permalink: /experiments/Experiment_ball_and_beam/
 
 ## Ball and Beam System
 
+
+
 The **ball and beam** system is a classic **benchmark problem in control engineering** that is widely used to analyze and evaluate feedback control strategies.
 
 ### System Description
@@ -28,7 +30,6 @@ This system is commonly used for:
 - Teaching **classical and modern control methods** (PID, state space, LQR, nonlinear control)  
 - Validating **control algorithms** in simulation and experiments  
 - Demonstrating concepts such as **stability, feedback, and robustness**
-
 
 ## Simulation Setup in MATLAB and Simulink
 
