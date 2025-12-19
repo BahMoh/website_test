@@ -8,9 +8,9 @@ permalink: /experiments/Experiment_ball_and_beam/
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockDiagram.png"
        alt="Simulink model of the ball and beam system"
        style="width:60%;">
-  <figcaption tyle="text-align: center; background: none; padding: 0; border: none;">
-    Figure 1. Simulink model of the ball and beam system.
-  </figcaption>
+<figcaption style="text-align: center; background: none; padding: 0; border: none;">
+  Figure 1. Simulink model of the ball and beam system.
+</figcaption>
 </figure>
 
 ## Ball and Beam System
