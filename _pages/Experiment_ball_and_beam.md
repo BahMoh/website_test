@@ -107,7 +107,7 @@ To set the sampling time and the solver type, right click on the model workspace
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockDiagramClosedLoop.png"
        alt="Simulink model of the ball and beam system"
-       style="width:70%;">
+       style="width:60%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 8. Simulink model of the ball and beam system.
 </figcaption>
