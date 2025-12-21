@@ -128,9 +128,6 @@ title('Output Chart')
 legend('R')
 ```
 
-The open-loop system output plot for a step input with an amplitude of 0.2 is shown in Figure 8:
-
-=======
 To run the simulation, after setting the simulation time in the Stop Time field, we start the simulation by selecting the Run option. Additionally, to plot the output, we execute the following commands in the MATLAB Editor environment:
 
 ```bash
@@ -147,7 +144,8 @@ legend('R')
 
 ```
 
->>>>>>> a1963099a2fdca35211591e31237b49c4d28d587
+The open-loop system output plot for a step input with an amplitude of 0.2 is shown in Figure 8:
+
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_Output.png"
        alt="Step response plot of the open-loop system for a step input with an amplitude of 0.2 radians"
