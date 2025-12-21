@@ -112,7 +112,6 @@ As observed, in the open-loop system simulation, we have considered the referenc
 </figcaption>
 </figure>
 
-<<<<<<< HEAD
 To run the simulation, after setting the simulation time in the Stop Time field, we start the simulation by selecting the Run option. Additionally, to plot the output, we execute the following commands in the MATLAB Editor environment:
 
 ```bash
@@ -126,22 +125,6 @@ xlabel('Time(sec)')
 ylabel('R')
 title('Output Chart')
 legend('R')
-```
-
-To run the simulation, after setting the simulation time in the Stop Time field, we start the simulation by selecting the Run option. Additionally, to plot the output, we execute the following commands in the MATLAB Editor environment:
-
-```bash
-Time = out.R_Out.time;
-R    = out.R_Out.signals.values;
- 
-figure
-plot(Time , R , 'r' , 'linewidth' , 2)
-grid on
-xlabel('Time(sec)')
-ylabel('R')
-title('Output Chart')
-legend('R')
-
 ```
 
 The open-loop system output plot for a step input with an amplitude of 0.2 is shown in Figure 8:
@@ -193,8 +176,7 @@ By running the above program, the root locus plot of this system is generated as
 
 As observed, for positive gains, the closed-loop poles move along the imaginary axis, causing the system to oscillate. For negative gains, one of the closed-loop poles lies on the right-hand side of the imaginary axis, making the system unstable. Therefore, it is clear that this system cannot be controlled using only a single gain.
 
-Figure 11 shows the closed-loop system response for a proportional controller with a gain of $K_P = 
-$.
+Figure 11 shows the closed-loop system response for a proportional controller with a gain of $K_P = 6$.
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_closedLoopResponseKp6.png"
        alt="Step response plot of the closed-loop system for a proportional compensator with gain $K_P = 6$."
@@ -204,7 +186,7 @@ $.
 </figcaption>
 </figure>
 
-As observed, the closed-loop system response, as expected, is oscillatory, whereas the control objective was for the output to reach 0.2. Therefore, to achieve this control objective, it is necessary to use a PD or PID controller. Next, we intend to implement the closed-loop system with these two controllers. For designing the controller, MATLAB toolboxes such as PID Tuner or _sisotool_ can be used. For our work, we use PID Tuner. To do this, first open the PID Tuner from the _APP_s section, and then define the system model using the following commands and import it into the PID Tuner toolbox.
+As observed, the closed-loop system response, as expected, is oscillatory, whereas the control objective was for the output to reach 0.2. Therefore, to achieve this control objective, it is necessary to use a PD or PID controller. Next, we intend to implement the closed-loop system with these two controllers. For designing the controller, MATLAB toolboxes such as PID Tuner or _sisotool_ can be used. For our work, we use PID Tuner. To do this, first open the PID Tuner from the _APPs_ section, and then define the system model using the following commands and import it into the PID Tuner toolbox.
 
 ```bash
 g = -9.8; %Gravitional acceleration (m/s^2).
