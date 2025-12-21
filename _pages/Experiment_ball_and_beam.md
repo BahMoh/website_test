@@ -38,6 +38,16 @@ To simulate the **ball and beam** system, the MATLAB and Simulink software envir
 
 To set the sampling time and the solver type, right click on the model workspace and select the *Model Configuration Parameters* option. In the *Solver Selection* section, set the solver type to *Fixed Step* and assign the sampling time as Ts. Figure 1 provides a suitable guide for performing these steps.
 
+
+<figure style="text-align: center;">
+  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_configuration.png"
+       alt="Simulink model of the ball and beam system"
+       style="width:70%;">
+<figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
+  Figure 12. Simulink model of the ball and beam system.
+</figcaption>
+</figure>
+
 <figure style="text-align: center;">
   <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_linear_model.png"
        alt="Simulink model of the ball and beam system"
@@ -142,15 +152,6 @@ To set the sampling time and the solver type, right click on the model workspace
        style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
   Figure 11. Simulink model of the ball and beam system.
-</figcaption>
-</figure>
-
-<figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_configuration.png"
-       alt="Simulink model of the ball and beam system"
-       style="width:70%;">
-<figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
-  Figure 12. Simulink model of the ball and beam system.
 </figcaption>
 </figure>
 
