@@ -42,7 +42,7 @@ To set the sampling time and the solver type, right click on the model workspace
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_configuration.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_configuration.png"
        alt="Solver settings and sampling time in the simulation."
        style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -55,7 +55,7 @@ Next, it is necessary to enter the initial values of the system model. To do thi
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_SIMOpenLoop.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_SIMOpenLoop.png"
        alt="Setting the initial values of the system mode."
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -68,7 +68,7 @@ It is necessary to use the SIMULINK library to add the components required for i
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_SimulinkLibraryBrowser.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_SimulinkLibraryBrowser.png"
        alt="Selecting the required components to implement the system model and applying inputs to it."
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -81,7 +81,7 @@ After selecting the required components, we connect them to each other as shown 
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockDiagram.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_blockDiagram.png"
        alt="Implementing the open-loop system in the SIMULINK environment."
        style="width:60%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -90,7 +90,7 @@ After selecting the required components, we connect them to each other as shown 
 </figure>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_linear_model.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_linear_model.png"
        alt="Setting the parameters of the ball and beam system model"
        style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -103,7 +103,7 @@ To plot the step response of this system, we use the Step block. The parameters 
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockParameterTheta.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_blockParameterTheta.png"
        alt="Setting the reference input parameters."
        style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -116,7 +116,7 @@ As observed, in the open-loop system simulation, we have considered the referenc
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockParameterOutput.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_blockParameterOutput.png"
        alt="Setting the parameters of the **To Workspace** block."
        style="width:30%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -146,7 +146,7 @@ The open-loop system output plot for a step input with an amplitude of 0.2 is sh
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_Output.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_Output.png"
        alt="Step response plot of the open-loop system for a step input with an amplitude of 0.2 radians"
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -161,7 +161,7 @@ Next, we intend to simulate the closed-loop system. For this purpose, it is nece
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_blockDiagramClosedLoop.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_blockDiagramClosedLoop.png"
        alt="Implementing the closed-loop system with a proportional controller in the SIMULINK environment"
        style="width:60%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -189,7 +189,7 @@ By running the above program, the root locus plot of this system is generated as
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_RootLocus.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_RootLocus.png"
        alt="Root locus plot of the ball and beam system."
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -204,7 +204,7 @@ Figure 11 shows the closed-loop system response for a proportional controller wi
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_closedLoopResponseKp6.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_closedLoopResponseKp6.png"
        alt="Step response plot of the closed-loop system for a proportional compensator with gain $K_P = 6$."
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -233,7 +233,7 @@ After setting the parameters, the PD controller gains are obtained as $K_P=7$ an
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PIDTuner.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_PIDTuner.png"
        alt="Tuning the control gains using PID Tuner."
        style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -246,7 +246,7 @@ After designing the proportional-derivative (PD) controller, we proceed to imple
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PDClosedLoop.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_PDClosedLoop.png"
        alt="Implementing the closed-loop system with a PD controller in the SIMULINK environment."
        style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -259,7 +259,7 @@ By running the simulation of the closed-loop system with the designed PD control
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PDOutput.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_PDOutput.png"
        alt="Step response plot of the closed-loop system for a PD controller with gains $K_P=7$ and $K_D=5.5$"
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -274,7 +274,7 @@ Next, using PID Tuner, we design a PID controller. Accordingly, the suitable con
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_PID_BlockDiagram.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_PID_BlockDiagram.png"
        alt="Implementing the closed-loop system with a PID controller in the SIMULINK environment."
        style="width:70%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
@@ -287,7 +287,7 @@ By running the simulation of the closed-loop system with the designed PID contro
 </div>
 
 <figure style="text-align: center;">
-  <img src="{{ site.baseurl }}/images/ballAndBeam/ball_and_beam_Output_PID.png"
+  <img src="{{ site.baseurl }}/images/Course XX/ballAndBeam/ball_and_beam_Output_PID.png"
        alt="Step response plot of the closed-loop system for a PID controller with gains $K_P=15.1$, $K_D=8.4$ and $K_I=2.9$"
        style="width:40%;">
 <figcaption style="text-align: center; background: none; padding: 0; border: none; font-size: 0.9em;">
