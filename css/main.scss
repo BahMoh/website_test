@@ -125,6 +125,7 @@ figcaption {
   max-width: 900px;
   margin: 0 auto;
   padding: 1rem;
+  font-size: 15px;   /* matches Bootstrap body text */
 }
 
 .content-justify p,
@@ -132,7 +133,6 @@ figcaption {
   text-align: justify;
   text-justify: inter-word;
   line-height: 1.75;
-  font-size: 0.9em;
 }
 
 .content-justify h2,
