@@ -3,7 +3,7 @@ layout: default
 title: "Course XX"
 permalink: /CourseXX/
 ---
-
+<div class="content-justify">
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <ul class="nav navbar-nav">
@@ -13,4 +13,6 @@ permalink: /CourseXX/
   </div>
 </nav>
 
-This is the fucking Course XX.
+<p>This is the Course XX page.</p>
+
+</div>
