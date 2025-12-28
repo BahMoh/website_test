@@ -260,5 +260,4 @@ By running the simulation of the closed-loop system with the designed PID contro
 </figure>
 
 Based on the plot in Figure 16, the response exhibits an overshoot of approximately 13.1% and a settling time of about 1.81 seconds. As observed, when using the PID controller, the system's overshoot is reduced and the response speed increases; however, adding the integral component raises the overall cost of the controller. Therefore, to achieve the desired response, the PD controller alone is sufficient.
-
 </div>

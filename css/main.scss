@@ -112,9 +112,32 @@ figcaption {
   border-left: 4px solid #ccc;
 }
 
+// Mathjax format
 .math {
     display: inline;      /* ensures it behaves like text */
     font-style: normal;   /* overrides any italic styles applied to captions */
     font-size: 0.9em;     /* match your figcaption font size */
     white-space: nowrap;  /* prevent line breaks inside math if desired */
+}
+
+/* Justified academic content */
+.content-justify {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.content-justify p,
+.content-justify li {
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.content-justify h2,
+.content-justify h3 {
+  text-align: left;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
