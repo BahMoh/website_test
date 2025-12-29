@@ -15,4 +15,4 @@ permalink: /CourseXX/
 </div>
 </nav>
 
-<p>This is the Course XX page.</p>
+<p>This is the Course XX page. You can select the experiments from the navigation bar.</p>
