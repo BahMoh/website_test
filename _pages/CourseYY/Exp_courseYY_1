@@ -4,28 +4,29 @@ layout: default
 permalink: /CourseYY/Exp_courseYY_1/
 mathjax: true
 ---
+
 <nav class="navbar navbar-default">
 <div class="container-fluid">
 <ul class="nav navbar-nav">
 
 <li class="{% if page.url == '/CourseYY/Exp_courseYY_1/' %}active{% endif %}">
-  <a href="/CourseYY/Experiment_ball_and_beam/">Exp courseYY 1</a>
+  <a href="/CourseYY/Exp_courseYY_1/">Exp courseYY 1</a>
 </li>
 
 <li class="{% if page.url == '/CourseYY/Exp_courseYY_2/' %}active{% endif %}">
-  <a href="/CourseYY/Experiment_inverted_pendulum/">Exp courseYY 2</a>
+  <a href="/CourseYY/Exp_courseYY_2/">Exp courseYY 2</a>
 </li>
 
 <li class="{% if page.url == '/CourseYY/Experiment_parallel_robot/' %}active{% endif %}">
-  <a href="/CourseYY/Experiment_parallel_robot/">Parallel Robot</a>
+  <a href="/CourseYY/Exp_courseYY_3/">Exp courseYY 3</a>
 </li>
 
 <li class="{% if page.url == '/CourseYY/Experiment_XX/' %}active{% endif %}">
-  <a href="/CourseYY/Experiment_XX/">EXP XX</a>
+  <a href="/CourseYY/Exp_courseYY_4/">Exp courseYY 4</a>
 </li>
 
 <li class="{% if page.url == '/CourseYY/Experiment_YY/' %}active{% endif %}">
-  <a href="/CourseYY/Experiment_YY/">EXP YY</a>
+  <a href="/CourseYY/Exp_courseYY_5/">Exp courseYY 5</a>
 </li>
 
 </ul>
