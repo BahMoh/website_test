@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Course YY"
+title: "Course YY" 
 permalink: /CourseYY/
 ---
 <nav class="navbar navbar-default">
