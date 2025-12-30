@@ -32,18 +32,26 @@ mathjax: true
 </div>
 </nav>
 
-
+<div class="toc-container">
+  <ul class="toc-list">
+    <li><a href="#ball-and-beam-system">Ball and Beam System</a></li>
+    <li><a href="#system-description">System Description</a></li>
+    <li><a href="#importance">Importance in Control Engineering</a></li>
+    <li><a href="#applications">Applications</a></li>
+    <li><a href="#sim-setup">Simulation Setup in MATLAB and Simulink</a></li>
+  </ul>
+</div>
 
 <!-- Justify the text -->
 <div class="content-justify">
 
-## Ball and Beam System
+## <a id="ball-and-beam-system"></a>Ball and Beam System
 
 
 
 The **ball and beam** system is a classic **benchmark problem in control engineering** that is widely used to analyze and evaluate feedback control strategies.
 
-### System Description
+### <a id="system-description"></a>System Description
 The system consists of:
 - A **beam** that rotates about a pivot point  
 - A **ball** that rolls along the beam under the influence of gravity  
@@ -52,19 +60,19 @@ The system consists of:
 
 By changing the angle of the beam, the position of the ball can be controlled.
 
-### Importance in Control Engineering
+### <a id="importance"></a>Importance in Control Engineering
 The ball and beam system is:
 - **Open loop unstable**: without feedback control, the ball will roll off the beam  
 - **Nonlinear**: due to trigonometric relationships and rolling dynamics  
 - **Underactuated**: the ball position is controlled indirectly through the beam angle  
 
-### Applications
+### <a id="applications"></a> Applications
 This system is commonly used for:
 - Teaching **classical and modern control methods** (PID, state space, LQR, nonlinear control)  
 - Validating **control algorithms** in simulation and experiments  
 - Demonstrating concepts such as **stability, feedback, and robustness**
 
-## Simulation Setup in MATLAB and Simulink
+## <a id="sim-setup"></a>Simulation Setup in MATLAB and Simulink
 
 To simulate the **ball and beam** system, the MATLAB and Simulink software environment is used. In the first step, after opening a Blank Model in the Simulink environment of MATLAB, the initial simulation settings must be configured. These include the sampling time, the solver type, and the initialization of the system model parameters.
 

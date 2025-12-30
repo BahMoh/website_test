@@ -141,3 +141,37 @@ figcaption {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
+
+
+// Table of content
+.toc-container {
+  position: fixed;
+  top: 80px; /* Adjust based on your navbar height */
+  left: 20px;
+  width: 200px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.toc-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.toc-list li {
+  margin: 8px 0;
+}
+
+.toc-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.toc-list a:hover {
+  text-decoration: underline;
+}
