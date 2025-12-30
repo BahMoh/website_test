@@ -5,16 +5,33 @@ permalink: /CourseXX/Experiment_inverted_pendulum/
 mathjax: true
 ---
 <nav class="navbar navbar-default">
-<div class="container-fluid">
-<ul class="nav navbar-nav">
-<li><a href="/CourseXX/Experiment_ball_and_beam/">Ball and Beam</a></li>
-<li><a href="/CourseXX/Experiment_inverted_pendulum/">Inverted Pendulum</a></li>
-<li><a href="/CourseXX/Experiment_parallel_robot/">Parallel Robot</a></li>
-<li><a href="/CourseXX/Experiment_XX/">EXP XX</a></li>
-<li><a href="/CourseXX/Experiment_YY/">EXP YY</a></li>
-</ul>
-</div>
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+
+      <li class="{% if page.url == '/CourseXX/Experiment_ball_and_beam/' %}active{% endif %}">
+        <a href="/CourseXX/Experiment_ball_and_beam/">Ball and Beam</a>
+      </li>
+
+      <li class="{% if page.url == '/CourseXX/Experiment_inverted_pendulum/' %}active{% endif %}">
+        <a href="/CourseXX/Experiment_inverted_pendulum/">Inverted Pendulum</a>
+      </li>
+
+      <li class="{% if page.url == '/CourseXX/Experiment_parallel_robot/' %}active{% endif %}">
+        <a href="/CourseXX/Experiment_parallel_robot/">Parallel Robot</a>
+      </li>
+
+      <li class="{% if page.url == '/CourseXX/Experiment_XX/' %}active{% endif %}">
+        <a href="/CourseXX/Experiment_XX/">EXP XX</a>
+      </li>
+
+      <li class="{% if page.url == '/CourseXX/Experiment_YY/' %}active{% endif %}">
+        <a href="/CourseXX/Experiment_YY/">EXP YY</a>
+      </li>
+
+    </ul>
+  </div>
 </nav>
+
 
 ## Inverted Pendulum
 
