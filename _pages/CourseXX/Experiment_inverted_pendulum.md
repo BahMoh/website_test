@@ -4,7 +4,17 @@ layout: default
 permalink: /CourseXX/Experiment_inverted_pendulum/
 mathjax: true
 ---
-
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<ul class="nav navbar-nav">
+<li><a href="/CourseXX/Experiment_ball_and_beam/">Ball and Beam</a></li>
+<li><a href="/CourseXX/Experiment_inverted_pendulum/">Inverted Pendulum</a></li>
+<li><a href="/CourseXX/Experiment_parallel_robot/">Parallel Robot</a></li>
+<li><a href="/CourseXX/Experiment_XX/">EXP XX</a></li>
+<li><a href="/CourseXX/Experiment_YY/">EXP YY</a></li>
+</ul>
+</div>
+</nav>
 
 ## Inverted Pendulum
 
