@@ -4,3 +4,30 @@ layout: default
 permalink: /CourseYY/Exp_courseYY_2/
 mathjax: true
 ---
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+<ul class="nav navbar-nav">
+
+<li class="{% if page.url == '/CourseYY/Exp_courseYY_1/' %}active{% endif %}">
+  <a href="/CourseYY/Experiment_ball_and_beam/">Exp courseYY 1</a>
+</li>
+
+<li class="{% if page.url == '/CourseYY/Exp_courseYY_2/' %}active{% endif %}">
+  <a href="/CourseYY/Experiment_inverted_pendulum/">Exp courseYY 2</a>
+</li>
+
+<li class="{% if page.url == '/CourseYY/Experiment_parallel_robot/' %}active{% endif %}">
+  <a href="/CourseYY/Experiment_parallel_robot/">Parallel Robot</a>
+</li>
+
+<li class="{% if page.url == '/CourseYY/Experiment_XX/' %}active{% endif %}">
+  <a href="/CourseYY/Experiment_XX/">EXP XX</a>
+</li>
+
+<li class="{% if page.url == '/CourseYY/Experiment_YY/' %}active{% endif %}">
+  <a href="/CourseYY/Experiment_YY/">EXP YY</a>
+</li>
+
+</ul>
+</div>
+</nav>
