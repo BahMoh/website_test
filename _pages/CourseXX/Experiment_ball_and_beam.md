@@ -33,6 +33,7 @@ mathjax: true
 </nav>
 
 <div class="toc-container">
+  <div class="toc-title">On this page</div>
   <ul class="toc-list">
     <li><a href="#ball-and-beam-system">Ball and Beam System</a></li>
     <li><a href="#system-description">System Description</a></li>

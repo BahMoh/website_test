@@ -142,36 +142,93 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-
-// Table of content
+/* Table of contents container */
 .toc-container {
   position: fixed;
-  top: 80px; /* Adjust based on your navbar height */
-  left: 20px;
-  width: 200px;
-  padding: 10px;
-  background-color: #f8f9fa;
-  border: 1px solid #ddd;
-  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
-  max-height: 90vh;
+  top: 64px;            /* navbar height */
+  bottom: 0;
+  left: 0;
+
+  width: 260px;
+  padding: 20px;
+
+  background-color: #868686;
+  border-right: 1px solid #e5e7eb;
+
   overflow-y: auto;
+  z-index: 1000;
 }
 
+/* TOC title */
+.toc-title {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+/* TOC list */
 .toc-list {
-  list-style-type: none;
-  padding-left: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .toc-list li {
-  margin: 8px 0;
+  margin: 12px 0;
 }
 
+/* TOC links */
 .toc-list a {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f2937;
   text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
+  line-height: 1.4;
+  padding-left: 10px;
+  border-left: 3px solid transparent;
 }
 
 .toc-list a:hover {
-  text-decoration: underline;
+  color: #2563eb;
 }
+
+/* Active section */
+.toc-list a.active {
+  color: #2563eb;
+  font-weight: 600;
+  border-left-color: #2563eb;
+}
+
+/* Push main content to the right */
+.container,
+.main-content {
+  margin-left: 280px;
+}
+</style>
+
+<!-- ===== ACTIVE SECTION TRACKING ===== -->
+<script>
+document.addEventListener("scroll", () => {
+  const sections = document.querySelectorAll("h2[id], h3[id]");
+  const links = document.querySelectorAll(".toc-list a");
+
+  let current = "";
+
+  sections.forEach(section => {
+    const sectionTop = section.offsetTop - 80;
+    if (window.scrollY >= sectionTop) {
+      current = section.getAttribute("id");
+    }
+  });
+
+  links.forEach(link => {
+    link.classList.remove("active");
+    if (link.getAttribute("href") === `#${current}`) {
+      link.classList.add("active");
+    }
+  });
+});
+</script>
