@@ -145,11 +145,12 @@ figcaption {
 // TOC (table of content)
 .toc-container {
   position: fixed;
-  top: 80px; /* adjust for navbar height */
-  bottom: auto;
+  top: 20px;
+  bottom: 0;
   left: 0;
   width: 260px;
   padding: 20px;
+  padding-top: 40px; 
   background-color: #f3f4f6;
   border-right: 1px solid #e5e7eb;
   overflow-y: auto;
@@ -195,7 +196,7 @@ figcaption {
 }
 
 /* Push page content right */
-.has-toc .page-with-toc {
+.container,
+.main-content {
   margin-left: 280px;
 }
-
