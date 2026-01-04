@@ -197,9 +197,9 @@ figcaption {
 }
 
 /* Push page content right */ 
-// If the page has toc change the content to the right.
+// If the page has toc shift the content to the right.
 .has-toc .page-with-toc {
-  margin-left: 280px;
+  margin-left: 300px;
 }
 
 /* Push the footer right only when a TOC is present */
